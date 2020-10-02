@@ -9,14 +9,15 @@
 header {
     display: flex;
     justify-content: center;
+    /* background: #F6511D; */
+    border-bottom: 2px solid #F6511D;
 }
 
 
 #nav-container {
     width: 85vw;
-    height: 25vh;
+    height:180px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -33,7 +34,8 @@ header {
 }
 
 main {
-    height: 70vh;
+    margin-top: 1em;
+    height: 63vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -44,7 +46,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 22vh;
+    height: 15vh;
     justify-content: space-between;
 }
 
@@ -58,12 +60,24 @@ main {
 
 main section {
     width: 85vw;
-    height: 40vh;
+    height: 27vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
+
+.list-films{
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.list-card{
+    width: 14vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;}
 
 #div-button {
     width: 85vw;
@@ -86,5 +100,26 @@ main section {
 
 
 footer {
+    display: flex;
     background: #F6511D;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
 }
+
+footer hr {
+    margin-right: 2em;
+    margin-left: 2em;
+    height: 200px;
+    border: 1px solid #fff;
+}
+
+.info-contact{
+    width: 451px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;}
+
+.div-image-films{height: 147px;}
