@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+#nav-container {
+    width: 85vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-container ul {
+    display: flex;
+    list-style-type: none;
+    width: 45vh;
+    justify-content: space-around;
+}
+
+#nav-container ul > li > a {
+    font-size: 18px;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-carretel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22vh;
+    justify-content: space-between;
+}
+
+#logo-carretel img {
+    height: 100px;
+}
+
+#logo-carretel h1 {
+    font-size: 24px;
+}
+
+main section {
+    width: 85vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#div-button {
+    width: 85vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#div-button button {
+    width: 180px;
+    height: 58px;
+    font-size: 20px;
+    border: none;
+    background: #F6511D;
+    text-align: center;
+    color: white;
+
+}
+
+
+footer {
+    background: #F6511D;
+}
