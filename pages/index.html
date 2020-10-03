@@ -28,32 +28,27 @@
 
         <section>
             <h2>Lista de Filmes</h2>
+            <!-- <div id="list-films">
 
-            <div class="list-films">
-
-                <div class="list-card">
-                    <p>Título do filme</p>
-                    <p>Genero</p>
-                </div>
-                <div class="list-card">
-                    <p>Título do filme</p>
-                    <p>Genero</p>
-                </div>
-                <div class="list-card">
-                    <p>Título do filme</p>
-                    <p>Genero</p>
-                </div>
-                <div class="list-card">
-                    <p>Título do filme</p>
-                    <p>Genero</p>
-                </div>
-
-            </div>
+                 <div class="list-card">
+                    <p >Título do filme</p>
+                    <p >Genero</p>
+                </div> 
+            </div> -->
+            <table>
+                <thead>
+                    <th  class="pTitulo">Titulo</th>
+                    <th  class="pTitulo">Gênero</th>
+                </thead>
+                <tbody id="tbody">
+    
+                </tbody>
+            </table>
 
         </section>
 
         <div id="div-button">
-            <button>Listar Filmes</button>
+            <button type="button" onclick="pesquisar()">Listar Filmes</button>
         </div>
     </main>
     <footer>
@@ -72,6 +67,7 @@
         </div>
 
     </footer>
+   
 </body>
-
+<script src="script.js" defer></script>
 </html>

@@ -42,6 +42,9 @@ main {
     align-items: center;
 }
 
+h2{
+    font-weight: 700;
+}
 #logo-carretel {
     display: flex;
     flex-direction: column;
@@ -60,24 +63,36 @@ main {
 
 main section {
     width: 85vw;
-    height: 27vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.list-films{
-    height: 19vh;
+table{
+    height: 13vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+    font-size: 20px;    
+}
 
-.list-card{
-    width: 14vw;
-    align-items: center;
+.pTitulo{
+    font-weight: 700;
+}
+
+#tbody{
+    height: 7vh;
     display: flex;
-    justify-content: space-between;}
+    flex-direction: column;
+    justify-content: space-between;
+}
+tr{
+    width: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
 
 #div-button {
     width: 85vw;
